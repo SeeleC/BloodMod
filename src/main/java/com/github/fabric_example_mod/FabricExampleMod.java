@@ -1,21 +1,19 @@
 package com.github.fabric_example_mod;
 
-import com.mojang.datafixers.optics.Affine;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class FabricExampleMod implements ModInitializer {
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
 
 	public final void Main() {
-		Registry.register(Registry.ITEM, new Identifier("fabric_example_mod", "fabric_item"), FABRIC_ITEM);
+		Registry.register(Registry.ITEM, new Identifier("fabric_example_mod", "blood_core"), BLOOD_CORE);
+		Registry.register(Registry.ITEM, new Identifier("fabric_example_mod", "blood_debris"), BLOOD_DEBRIS);
+		Registry.register(Registry.ITEM, new Identifier("fabric_example_mod", "blood_bottle"), BLOOD_BOTTLE);
 	}
 
 	@Override
@@ -25,5 +23,18 @@ public class FabricExampleMod implements ModInitializer {
 		// Proceed with mild caution.
 	}
 
-	public static final Item FABRIC_ITEM = new FabricItem(new Item.Settings().group(ItemGroup.MISC).maxCount(16));
+	public static final Item BLOOD_CORE = new BloodCore(new Item.Settings());
+	public static final Item BLOOD_DEBRIS = new BloodDebris(new Item.Settings());
+	public static final Item BLOOD_BOTTLE = new BloodBottle(new Item.Settings());
+
+	public static final ItemGroup GROUP = FabricItemGroupBuilder.create(
+			new Identifier("fabric_example_mod", "group")
+	).icon(() -> new ItemStack(BLOOD_CORE))
+			.appendItems(itemStacks -> {
+				itemStacks.add(new ItemStack(BLOOD_CORE));
+				itemStacks.add(new ItemStack(BLOOD_DEBRIS));
+				itemStacks.add(new ItemStack(BLOOD_BOTTLE));
+			})
+			.build();
+
 }
