@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blood_mod",
+  "pattern": [
+    "OGG",
+    "OSG",
+    "GOO"
+  ],
+  "key": {
+    "G": {
+      "item": "blood_mod:blood_ingot"
+    },
+    "S": {
+      "item": "blood_mod:blood_bottle"
+    },
+    "O": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "result": {
+    "item": "blood_mod:blood_pickaxe"
+  }
+}

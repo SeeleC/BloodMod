@@ -1,4 +1,4 @@
-package com.github.fabric_example_mod;
+package com.github.blood_mod;
 
 import net.minecraft.item.Item;
 

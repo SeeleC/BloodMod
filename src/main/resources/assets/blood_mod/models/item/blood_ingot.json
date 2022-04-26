@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fabric_example_mod:item/blood_debris"
+    "layer0": "blood_mod:item/blood_ingot"
   }
 }

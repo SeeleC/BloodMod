@@ -1,0 +1,20 @@
+{
+  "itemGroup.blood_mod.group" : "blood",
+
+  "item.blood_mod.blood_core": "blood core",
+  "item.blood_mod.blood_debris": "blood debris",
+  "item.blood_mod.blood_bottle": "§blood bottle",
+  "block.blood_mod.blood_ore": "blood ore",
+  "item.blood_mod.blood_ingot": "blood ingot",
+  "item.blood_mod.blood_sword": "blood sword",
+  "item.blood_mod.blood_pickaxe": "blood pickaxe",
+  "item.blood_mod.blood_pickaxe.tooltip": "May be suitable for combat",
+  "item.blood_mod.blood_axe": "blood axe",
+  "catalyst": "§bcatalyst",
+  "inhibitor": "§binhibitor",
+  "ancient_tear": "§bancient_tear",
+  "defense_gem": "§adefense gem",
+  "duel_gem": "§aduel gem",
+  "night_vision_gem": "§anight vision gem",
+  "quiet_gem": "§aquiet gem"
+}

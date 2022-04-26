@@ -1,0 +1,21 @@
+{
+  "itemGroup.blood_mod.group" : "血模组",
+
+  "item.blood_mod.blood_core": "血心",
+  "item.blood_mod.blood_debris": "血石",
+  "item.blood_mod.blood_bottle": "血瓶",
+  "block.blood_mod.blood_ore": "血矿石",
+  "item.blood_mod.blood_ingot": "血锭",
+  "item.blood_mod.blood_sword": "血剑",
+  "item.blood_mod.blood_pickaxe": "血镐",
+  "item.blood_mod.blood_pickaxe.tooltip": "或许适合镐击...?",
+  "item.blood_mod.blood_axe": "血斧",
+  "catalyst": "§b催化剂",
+  "inhibitor": "§b抑制剂",
+  "ancient_tear": "§b远古之泪",
+  "defense_gem": "§a防御宝石",
+  "duel_gem": "§a决战宝石",
+  "night_vision_gem": "§a无垠宝石",
+  "quiet_gem": "§a静谧宝石"
+
+}

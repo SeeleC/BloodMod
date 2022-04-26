@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "blood_mod",
+  "ingredient": {
+    "item": "blood_mod:blood_ore"
+  },
+  "result": "blood_mod:blood_debris",
+  "experience": 1.5,
+  "cookingtime": 120
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GSG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "blood_mod:blood_debris"
+    },
+    "S": {
+      "item": "minecraft:netherstar"
+    }
+  },
+  "result": {
+    "item": "blood_mod:blood_bottle"
+  }
+}
