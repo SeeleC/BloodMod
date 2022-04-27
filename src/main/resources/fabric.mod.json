@@ -20,14 +20,9 @@
   "entrypoints": {
     "main": [
       "WaiZhong.blood_mod.BloodModMain"
-    ],
-    "client": [
-      "WaiZhong.blood_mod.BloodModClient"
     ]
   },
-  "mixins": [
-    "blood_mod.mixins.json"
-  ],
+  "mixins": [],
 
   "depends": {
     "fabricloader": ">=0.13.3",

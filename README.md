@@ -1,9 +1,7 @@
-# Fabric Example Mod
+# Blood Mod
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+ZYG Game Addon 的java-fabric移植版
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+此项目使用 [CC0 1.0](LICENSE) 协议
