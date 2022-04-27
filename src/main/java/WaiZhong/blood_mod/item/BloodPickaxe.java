@@ -1,4 +1,4 @@
-package com.github.blood_mod.Tools;
+package WaiZhong.blood_mod.item;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.ItemStack;

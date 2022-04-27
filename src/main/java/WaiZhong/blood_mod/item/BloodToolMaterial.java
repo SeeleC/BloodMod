@@ -1,7 +1,10 @@
-package com.github.blood_mod;
+package WaiZhong.blood_mod.item;
 
+import WaiZhong.blood_mod.BloodModMain;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+
+import static WaiZhong.blood_mod.init.ItemInit.BLOOD_INGOT;
 
 public class BloodToolMaterial implements ToolMaterial {
     public  static  final BloodToolMaterial INSTANCE =  new BloodToolMaterial() ;
@@ -33,6 +36,6 @@ public class BloodToolMaterial implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Main.BLOOD_INGOT);
+        return Ingredient.ofItems(BLOOD_INGOT);
     }
 }

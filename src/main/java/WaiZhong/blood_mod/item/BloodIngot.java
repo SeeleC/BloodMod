@@ -1,4 +1,4 @@
-package com.github.blood_mod;
+package WaiZhong.blood_mod.item;
 
 import net.minecraft.item.Item;
 

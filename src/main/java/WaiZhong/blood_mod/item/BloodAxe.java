@@ -1,4 +1,4 @@
-package com.github.blood_mod.Tools;
+package WaiZhong.blood_mod.item;
 
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.ToolMaterial;
