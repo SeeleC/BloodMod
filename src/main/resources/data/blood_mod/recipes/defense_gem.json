@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blood_mod",
+  "pattern": [
+    "OGO",
+    " S ",
+    "OGO"
+  ],
+  "key": {
+    "S": {
+      "item": "blood_mod:yizhi"
+    },
+    "G": {
+      "item": "minecraft:diamond"
+    },
+    "O": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "blood_mod:defense"
+  }
+}

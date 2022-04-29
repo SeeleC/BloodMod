@@ -12,7 +12,7 @@ import net.minecraft.util.registry.Registry;
 public class BlockInit {
     public static final Block BLOOD_ORE = new BloodOre(FabricBlockSettings
             .of(Material.STONE)
-            .hardness(1.3f)
+            .hardness(1.4f)
             .requiresTool()
             .nonOpaque()
     );

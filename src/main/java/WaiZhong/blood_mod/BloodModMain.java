@@ -37,7 +37,8 @@ public class BloodModMain implements ModInitializer {
 				itemStacks.add(new ItemStack(BLOOD_SWORD));
 				itemStacks.add(new ItemStack(BLOOD_PICKAXE));
 				itemStacks.add(new ItemStack(BLOOD_AXE));
-				itemStacks.add(new ItemStack(ANCIENT_TEAR));
+				itemStacks.add(new ItemStack(DEFENSE_GEM));
+				itemStacks.add(new ItemStack(BATTLE_GEM));
 			})
 			.build();
 

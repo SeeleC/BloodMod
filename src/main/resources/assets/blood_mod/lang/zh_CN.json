@@ -7,16 +7,31 @@
   "block.blood_mod.blood_ore": "血矿石",
   "item.blood_mod.blood_ingot": "血锭",
   "item.blood_mod.blood_sword": "血剑",
+
   "item.blood_mod.blood_pickaxe": "血镐",
   "item.blood_mod.blood_pickaxe.tooltip": "或许适合镐击...?",
+
   "item.blood_mod.blood_axe": "血斧",
-  "item.blood_mod.ancient_tear": "§b远古之泪",
+
+  "item.blood_mod.ancient_tear": "远古之泪",
   "item.blood_mod.ancient_tear.tooltip": "魔力+2",
+
+  "item.blood_mod.defense_gem": "防御宝石",
+  "item.blood_mod.defense_gem.tooltip1": "抗性提升 III （1:30）",
+  "item.blood_mod.defense_gem.tooltip2": "火焰保护 （3:00）",
+
+  "item.blood_mod.battle_gem": "决战宝石",
+  "item.blood_mod.battle_gem.tooltip1": "力量提升 III （0:45）",
+  "item.blood_mod.battle_gem.tooltip2": "速度 （1:00）",
+  "item.blood_mod.battle_gem.tooltip3": "当生效后 :",
+  "item.blood_mod.battle_gem.tooltip4": "+9 攻击伤害",
+  "item.blood_mod.battle_gem.tooltip5": "+20% 速度",
+
+  "item.blood_mod.explorer's_gem": "探险者宝石",
+
   "catalyst": "§b催化剂",
   "inhibitor": "§b抑制剂",
-  "defense_gem": "§a防御宝石",
-  "duel_gem": "§a决战宝石",
-  "night_vision_gem": "§a无垠宝石",
-  "quiet_gem": "§a静谧宝石"
+  "serenity_gem": "§a静谧宝石",
 
+  "newline": ""
 }

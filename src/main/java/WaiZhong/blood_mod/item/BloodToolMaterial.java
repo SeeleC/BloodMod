@@ -16,7 +16,7 @@ public class BloodToolMaterial implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 14.0f;
+        return 15.0f;
     }
 
     @Override

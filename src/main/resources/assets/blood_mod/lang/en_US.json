@@ -1,21 +1,36 @@
 {
-  "itemGroup.blood_mod.group" : "blood",
+  "itemGroup.blood_mod.group" : "Blood Mod",
 
-  "item.blood_mod.blood_core": "blood core",
-  "item.blood_mod.blood_debris": "blood debris",
-  "item.blood_mod.blood_bottle": "§blood bottle",
-  "block.blood_mod.blood_ore": "blood ore",
-  "item.blood_mod.blood_ingot": "blood ingot",
-  "item.blood_mod.blood_sword": "blood sword",
-  "item.blood_mod.blood_pickaxe": "blood pickaxe",
+  "item.blood_mod.blood_core": "Blood Core",
+  "item.blood_mod.blood_debris": "Blood Debris",
+  "item.blood_mod.blood_bottle": "Blood Bottle",
+  "block.blood_mod.blood_ore": "Blood Ore",
+  "item.blood_mod.blood_ingot": "Blood Ingot",
+  "item.blood_mod.blood_sword": "Blood Sword",
+
+  "item.blood_mod.blood_pickaxe": "Blood Pickaxe",
   "item.blood_mod.blood_pickaxe.tooltip": "May be suitable for combat",
-  "item.blood_mod.blood_axe": "blood axe",
-  "item.blood_mod.ancient_tear": "ancient_tear",
-  "item.blood_mod.ancient_tear.tooltip": "mana+2",
+  "item.blood_mod.blood_axe": "Blood Axe",
+
+  "item.blood_mod.ancient_tear": "Ancient Tear",
+  "item.blood_mod.ancient_tear.tooltip": "Mana+2",
+
+  "item.blood_mod.defense_gem": "Defense Gem",
+  "item.blood_mod.defense_gem.tooltip1": "Resistance III (1:30)",
+  "item.blood_mod.defense_gem.tooltip2": "Fire resistance (3:00)",
+
+  "item.blood_mod.battle_gem": "Battle Gem",
+  "item.blood_mod.battle_gem.tooltip1": "Strength III (0:45)",
+  "item.blood_mod.battle_gem.tooltip2": "Speed (1:00)",
+  "item.blood_mod.battle_gem.tooltip3": "When Applied:",
+  "item.blood_mod.battle_gem.tooltip4": "+9 Attack Damage",
+  "item.blood_mod.battle_gem.tooltip5": "+20% Speed",
+
+  "item.blood_mod.explorer's_gem": "探险者宝石",
+
   "catalyst": "§bcatalyst",
   "inhibitor": "§binhibitor",
-  "defense_gem": "§adefense gem",
-  "duel_gem": "§aduel gem",
-  "night_vision_gem": "§anight vision gem",
-  "quiet_gem": "§aquiet gem"
+  "quiet_gem": "§aquiet gem",
+
+  "newline": ""
 }
