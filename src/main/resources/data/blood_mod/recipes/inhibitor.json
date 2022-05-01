@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "blood_mod",
+  "ingredients": [
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "blood_mod:ancient_tear"
+    }
+  ],
+  "result": {
+    "item": "blood_mod:inhibitor"
+  }
+}

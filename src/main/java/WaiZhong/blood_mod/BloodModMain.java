@@ -1,6 +1,7 @@
 package WaiZhong.blood_mod;
 
 import WaiZhong.blood_mod.init.BlockInit;
+import WaiZhong.blood_mod.init.ConfigInit;
 import WaiZhong.blood_mod.init.ItemInit;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
@@ -32,6 +33,9 @@ public class BloodModMain implements ModInitializer {
 				itemStacks.add(new ItemStack(BLOOD_CORE));
 				itemStacks.add(new ItemStack(BLOOD_DEBRIS));
 				itemStacks.add(new ItemStack(BLOOD_BOTTLE));
+				itemStacks.add(new ItemStack(ANCIENT_TEAR));
+				itemStacks.add(new ItemStack(INHIBITOR));
+				itemStacks.add(new ItemStack(CATALYST));
 				itemStacks.add(new ItemStack(BLOOD_INGOT));
 				itemStacks.add(new ItemStack(BLOOD_ORE));
 				itemStacks.add(new ItemStack(BLOOD_SWORD));
@@ -39,6 +43,8 @@ public class BloodModMain implements ModInitializer {
 				itemStacks.add(new ItemStack(BLOOD_AXE));
 				itemStacks.add(new ItemStack(DEFENSE_GEM));
 				itemStacks.add(new ItemStack(BATTLE_GEM));
+				itemStacks.add(new ItemStack(MINER_S_GEM));
+				itemStacks.add(new ItemStack(SERENITY_GEM));
 			})
 			.build();
 
@@ -46,6 +52,7 @@ public class BloodModMain implements ModInitializer {
 	public void onInitialize() {
 		BlockInit.init();
 		ItemInit.init();
+		ConfigInit.init();
 
 		Registry.register(BuiltinRegistries.CONFIGURED_FEATURE,
 				new Identifier("blood_mod", "blood_ore"), OVERWORLD_ORE_CONFIGURED_FEATURE);
@@ -56,17 +63,18 @@ public class BloodModMain implements ModInitializer {
 						new Identifier("blood_mod", "blood_ore")));
 	}
 
-	private static final ConfiguredFeature<?, ?> OVERWORLD_ORE_CONFIGURED_FEATURE = new ConfiguredFeature
+	private static final ConfiguredFeature<?, ?> OVERWORLD_ORE_CONFIGURED_FEATURE = new ConfiguredFeature<>
 			(Feature.ORE, new OreFeatureConfig(
 					OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
 					BLOOD_ORE.getDefaultState(),
-					15)); // vein size
+					15) // vein size
+			);
 
 	public static PlacedFeature OVERWORLD_ORE_PLACED_FEATURE = new PlacedFeature(
 			RegistryEntry.of(OVERWORLD_ORE_CONFIGURED_FEATURE),
 			Arrays.asList(
 					CountPlacementModifier.of(5), // number of veins per chunk
 					SquarePlacementModifier.of(), // spreading horizontally
-					HeightRangePlacementModifier.uniform(YOffset.fixed(45), YOffset.fixed(55))
+					HeightRangePlacementModifier.uniform(YOffset.aboveBottom(45), YOffset.fixed(55))
 			)); // height
 }

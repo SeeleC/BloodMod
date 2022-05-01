@@ -4,8 +4,13 @@
   "package": "WaiZhong.blood_mod.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "PlayerEntityMixin",
+    "PlayerManagerMixin",
+    "ServerPlayerEntityMixin"
   ],
-  "server": [],
+  "client": [
+    "client.InGameHudMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }

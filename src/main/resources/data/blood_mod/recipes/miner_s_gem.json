@@ -4,20 +4,20 @@
   "pattern": [
     "OGO",
     " S ",
-    "OGO"
+    " O "
   ],
   "key": {
-    "S": {
+    "G": {
       "item": "blood_mod:inhibitor"
     },
-    "G": {
-      "item": "minecraft:diamond"
+    "S": {
+      "item": "minecraft:golden_ingot"
     },
     "O": {
       "item": "minecraft:amethyst_shard"
     }
   },
   "result": {
-    "item": "blood_mod:defense"
+    "item": "blood_mod:miner_s_gem"
   }
 }

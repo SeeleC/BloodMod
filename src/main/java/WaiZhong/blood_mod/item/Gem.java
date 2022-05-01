@@ -1,15 +1,18 @@
 package WaiZhong.blood_mod.item;
 
+import WaiZhong.blood_mod.access.ManaManagerAccess;
+import WaiZhong.blood_mod.mana.ManaManager;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.player.HungerManager;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.*;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
@@ -25,15 +28,26 @@ public class Gem extends Item {
         this.tooltips  = tooltips;
     }
 
+    @Nullable
+    @Override
+    public FoodComponent getFoodComponent() {
+        return new FoodComponent.Builder().alwaysEdible().build();
+    }
+
+    @Override
+    public boolean isFood() {
+        return true;
+    }
+
     @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity player) {
         PlayerEntity playerEntity = player instanceof PlayerEntity ? (PlayerEntity) player : null;
 
         assert playerEntity != null;
         if (!playerEntity.isCreative()) {
-            HungerManager hungerManager = playerEntity.getHungerManager();
-            if (hungerManager.getFoodLevel() >= this.cost) {
-                hungerManager.add(-this.cost, -5);
+            ManaManager manaManager = ((ManaManagerAccess) playerEntity).getManaManager(playerEntity);
+            if (manaManager.getManaLevel() >= this.cost) {
+                manaManager.add(-this.cost);
 
                 for (StatusEffectInstance effect : this.effects) {
                     player.addStatusEffect(effect);

@@ -4,33 +4,42 @@
   "item.blood_mod.blood_core": "Blood Core",
   "item.blood_mod.blood_debris": "Blood Debris",
   "item.blood_mod.blood_bottle": "Blood Bottle",
-  "block.blood_mod.blood_ore": "Blood Ore",
   "item.blood_mod.blood_ingot": "Blood Ingot",
+
+  "block.blood_mod.blood_ore": "Blood Ore",
+
   "item.blood_mod.blood_sword": "Blood Sword",
 
   "item.blood_mod.blood_pickaxe": "Blood Pickaxe",
   "item.blood_mod.blood_pickaxe.tooltip": "May be suitable for combat",
+
   "item.blood_mod.blood_axe": "Blood Axe",
 
   "item.blood_mod.ancient_tear": "Ancient Tear",
-  "item.blood_mod.ancient_tear.tooltip": "Mana+2",
+  "item.blood_mod.ancient_tear.tooltip": "+2 Mana",
 
   "item.blood_mod.defense_gem": "Defense Gem",
   "item.blood_mod.defense_gem.tooltip1": "Resistance III (1:30)",
   "item.blood_mod.defense_gem.tooltip2": "Fire resistance (3:00)",
 
   "item.blood_mod.battle_gem": "Battle Gem",
-  "item.blood_mod.battle_gem.tooltip1": "Strength III (0:45)",
-  "item.blood_mod.battle_gem.tooltip2": "Speed (1:00)",
+  "item.blood_mod.battle_gem.tooltip1": "Strength III (1:00)",
+  "item.blood_mod.battle_gem.tooltip2": "Speed II (1:00)",
   "item.blood_mod.battle_gem.tooltip3": "When Applied:",
   "item.blood_mod.battle_gem.tooltip4": "+9 Attack Damage",
-  "item.blood_mod.battle_gem.tooltip5": "+20% Speed",
+  "item.blood_mod.battle_gem.tooltip5": "+40% Speed",
 
-  "item.blood_mod.explorer's_gem": "探险者宝石",
+  "item.blood_mod.miner's_gem": "Miner's Gem",
+  "item.blood_mod.miner_s_gem.tooltip1": "Night Vision （8:00）",
+  "item.blood_mod.miner_s_gem.tooltip2": "Haste II （2:00）",
 
-  "catalyst": "§bcatalyst",
-  "inhibitor": "§binhibitor",
-  "quiet_gem": "§aquiet gem",
+  "item.blood_mod.serenity_gem": "Serenity Gem",
+  "item.blood_mod.serenity_gem.tooltip1": "Regeneration IV （0:20）",
+  "item.blood_mod.serenity_gem.tooltip2": "Absorption V （2:00）",
 
+  "item.blood_mod.catalyst": "Catalyst",
+  "item.blood_mod.inhibitor": "Inhibitor",
+
+  "item.blood_mod.BottleItem.tooltip": "No Effects",
   "newline": ""
 }

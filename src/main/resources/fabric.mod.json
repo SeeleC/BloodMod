@@ -1,33 +1,39 @@
 {
   "schemaVersion": 1,
-  "id": "blood",
+  "id": "blood_mod",
   "version": "${version}",
 
-  "name": "ZYG Game Mod",
+  "name": "Blood Mod",
   "description": "ZYG Game Addon 的java-fabric移植版",
   "authors": [
     "WaiZhong"
   ],
   "contact": {
     "homepage": "",
-    "sources": "https://github.com/WaiZhong/BloodMod"
+    "sources": "https://github.com/WaiZhong/BloodMod",
+    "issues": "https://github.com/WaiZhong/BloodMod/issues"
   },
 
-  "license": "CC0-1.0",
   "icon": "assets/blood_mod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "WaiZhong.blood_mod.BloodModMain"
+    ],
+    "client": [
+      "WaiZhong.blood_mod.BloodModClient"
     ]
   },
-  "mixins": [],
+  "mixins": [
+    "blood_mod.mixins.json"
+  ],
 
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
     "minecraft": "1.18.x",
+    "cloth-config2": ">=6.2.57",
     "java": ">=17"
   },
   "suggests": {

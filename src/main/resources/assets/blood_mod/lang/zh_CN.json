@@ -4,8 +4,10 @@
   "item.blood_mod.blood_core": "血心",
   "item.blood_mod.blood_debris": "血石",
   "item.blood_mod.blood_bottle": "血瓶",
-  "block.blood_mod.blood_ore": "血矿石",
   "item.blood_mod.blood_ingot": "血锭",
+
+  "block.blood_mod.blood_ore": "血矿石",
+
   "item.blood_mod.blood_sword": "血剑",
 
   "item.blood_mod.blood_pickaxe": "血镐",
@@ -14,24 +16,30 @@
   "item.blood_mod.blood_axe": "血斧",
 
   "item.blood_mod.ancient_tear": "远古之泪",
-  "item.blood_mod.ancient_tear.tooltip": "魔力+2",
+  "item.blood_mod.ancient_tear.tooltip": "+2 魔力",
 
   "item.blood_mod.defense_gem": "防御宝石",
   "item.blood_mod.defense_gem.tooltip1": "抗性提升 III （1:30）",
   "item.blood_mod.defense_gem.tooltip2": "火焰保护 （3:00）",
 
   "item.blood_mod.battle_gem": "决战宝石",
-  "item.blood_mod.battle_gem.tooltip1": "力量提升 III （0:45）",
-  "item.blood_mod.battle_gem.tooltip2": "速度 （1:00）",
+  "item.blood_mod.battle_gem.tooltip1": "力量提升 III （1:00）",
+  "item.blood_mod.battle_gem.tooltip2": "速度 II （1:00）",
   "item.blood_mod.battle_gem.tooltip3": "当生效后 :",
   "item.blood_mod.battle_gem.tooltip4": "+9 攻击伤害",
-  "item.blood_mod.battle_gem.tooltip5": "+20% 速度",
+  "item.blood_mod.battle_gem.tooltip5": "+40% 速度",
 
-  "item.blood_mod.explorer's_gem": "探险者宝石",
+  "item.blood_mod.miner_s_gem": "无垠宝石",
+  "item.blood_mod.miner_s_gem.tooltip1": "夜视 （8:00）",
+  "item.blood_mod.miner_s_gem.tooltip2": "急迫 II （2:00）",
 
-  "catalyst": "§b催化剂",
-  "inhibitor": "§b抑制剂",
-  "serenity_gem": "§a静谧宝石",
+  "item.blood_mod.serenity_gem": "静谧宝石",
+  "item.blood_mod.serenity_gem.tooltip1": "生命回复 IV （0:20）",
+  "item.blood_mod.serenity_gem.tooltip2": "伤害吸收 V （2:00）",
 
+  "item.blood_mod.catalyst": "催化剂",
+  "item.blood_mod.inhibitor": "抑制剂",
+
+  "item.blood_mod.BottleItem.tooltip": "无效果",
   "newline": ""
 }
