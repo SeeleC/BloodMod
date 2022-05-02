@@ -18,31 +18,31 @@ public class ItemInit {
             new Item.Settings().maxCount(1)
     );
     public static final Item INHIBITOR = new BottleItem(
-            new Item.Settings().maxCount(1)
+            new Item.Settings().maxCount(1).rarity(Rarity.RARE)
     );
     public static final Item CATALYST = new BottleItem(
-            new Item.Settings().maxCount(1)
+            new Item.Settings().maxCount(1).rarity(Rarity.RARE)
     );
     public static final Item DEFENSE_GEM = new Gem(
-            new Item.Settings().maxCount(1).rarity(Rarity.UNCOMMON),
+            new Item.Settings().maxCount(1).rarity(Rarity.EPIC),
             (short) 6,
             Arrays.asList(new StatusEffectInstance(StatusEffects.RESISTANCE, 2400, 3, true, false), new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 3600, 3, true, false)),
             Arrays.asList((TranslatableText) new TranslatableText("item.blood_mod.defense_gem.tooltip1").formatted(Formatting.BLUE), (TranslatableText) new TranslatableText("item.blood_mod.defense_gem.tooltip2").formatted(Formatting.BLUE))
     );
     public static final Item BATTLE_GEM = new Gem(
-            new Item.Settings().maxCount(1).rarity(Rarity.UNCOMMON),
+            new Item.Settings().maxCount(1).rarity(Rarity.EPIC),
             (short) 12,
             Arrays.asList(new StatusEffectInstance(StatusEffects.STRENGTH, 1200, 2, true, false), new StatusEffectInstance(StatusEffects.SPEED, 1200, 1, true, false)),
             Arrays.asList((TranslatableText) new TranslatableText("item.blood_mod.battle_gem.tooltip1").formatted(Formatting.BLUE), (TranslatableText) new TranslatableText("item.blood_mod.battle_gem.tooltip2").formatted(Formatting.BLUE), new TranslatableText("newline"), (TranslatableText) new TranslatableText("item.blood_mod.battle_gem.tooltip3").formatted(Formatting.DARK_PURPLE), (TranslatableText) new TranslatableText("item.blood_mod.battle_gem.tooltip4").formatted(Formatting.BLUE), (TranslatableText) new TranslatableText("item.blood_mod.battle_gem.tooltip5").formatted(Formatting.BLUE))
     );
     public static final Item MINER_S_GEM = new Gem(
-            new Item.Settings().maxCount(1).rarity(Rarity.UNCOMMON),
+            new Item.Settings().maxCount(1).rarity(Rarity.EPIC),
             (short) 5,
             Arrays.asList(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 9600, 0, true, false), new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 2400, 1, true, false)),
             Arrays.asList((TranslatableText) new TranslatableText("item.blood_mod.miner_s_gem.tooltip1").formatted(Formatting.BLUE), (TranslatableText) new TranslatableText("item.blood_mod.miner_s_gem.tooltip2").formatted(Formatting.BLUE))
     );
     public static final Item SERENITY_GEM = new Gem(
-            new Item.Settings().maxCount(1).rarity(Rarity.UNCOMMON),
+            new Item.Settings().maxCount(1).rarity(Rarity.EPIC),
             (short) 6,
             Arrays.asList(new StatusEffectInstance(StatusEffects.REGENERATION, 400, 3, true, false), new StatusEffectInstance(StatusEffects.ABSORPTION, 2400, 4, true, false)),
             Arrays.asList((TranslatableText) new TranslatableText("item.blood_mod.serenity_gem.tooltip1").formatted(Formatting.BLUE), (TranslatableText) new TranslatableText("item.blood_mod.serenity_gem.tooltip2").formatted(Formatting.BLUE))
