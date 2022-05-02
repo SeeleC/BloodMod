@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "blood_mod",
+  "id": "blood-mod",
   "version": "${version}",
 
   "name": "Blood Mod",
