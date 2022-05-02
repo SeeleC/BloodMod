@@ -15,7 +15,7 @@ import java.util.Arrays;
 
 public class ItemInit {
     public static final Item ANCIENT_TEAR = new AncientTear(
-            new Item.Settings().maxCount(1)
+            new Item.Settings().maxCount(1).rarity(Rarity.UNCOMMON)
     );
     public static final Item INHIBITOR = new BottleItem(
             new Item.Settings().maxCount(1).rarity(Rarity.RARE)

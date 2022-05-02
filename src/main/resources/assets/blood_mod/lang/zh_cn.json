@@ -44,7 +44,7 @@
   "newline": "",
 
   "text.autoconfig.blood_mod.category.general": "通用",
-  "text.autoconfig.blood_mod.option.display_hud": "在饱食度上方显示魔力值",
+  "text.autoconfig.blood_mod.option.display_hud": "显示魔力值",
 
   "text.autoconfig.blood_mod.category.advanced": "高级",
   "text.autoconfig.blood_mod.option.hud_x": "魔力值 X 轴偏移",

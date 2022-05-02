@@ -6,9 +6,9 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry;
 import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.Comment;
 
 @Config(name = "blood_mod")
-//@Config.Gui.Background("minecraft:textures/block/stone.png")
+@Config.Gui.Background("minecraft:textures/gui/options_background.png")
 public class BloodModConfig implements ConfigData {
-    //@Comment("blood_mod.describe.display_hud")
+    // @Comment("display_hud.describe")
     @ConfigEntry.Category("general")
     public boolean display_hud = true;
 

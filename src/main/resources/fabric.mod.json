@@ -5,6 +5,7 @@
 
   "name": "Blood Mod",
   "description": "ZYG Game Addon 的java-fabric移植版",
+  "license": "Apache-2.0",
   "authors": [
     "WaiZhong"
   ],
