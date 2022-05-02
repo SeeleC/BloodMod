@@ -41,5 +41,14 @@
   "item.blood_mod.inhibitor": "Inhibitor",
 
   "item.blood_mod.BottleItem.tooltip": "No Effects",
-  "newline": ""
+  "newline": "",
+
+  "text.autoconfig.blood_mod.title": "BloodMod Config",
+
+  "text.autoconfig.blood_mod.category.general": "General",
+  "text.autoconfig.blood_mod.option.display_hud": "Show Mana Bar",
+
+  "text.autoconfig.blood_mod.category.advanced": "Advanced",
+  "text.autoconfig.blood_mod.option.hud_x": "Hud X Position",
+  "text.autoconfig.blood_mod.option.hud_y": "Hud Y Position"
 }

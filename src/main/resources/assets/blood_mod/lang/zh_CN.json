@@ -41,5 +41,12 @@
   "item.blood_mod.inhibitor": "抑制剂",
 
   "item.blood_mod.BottleItem.tooltip": "无效果",
-  "newline": ""
+  "newline": "",
+
+  "text.autoconfig.blood_mod.category.general": "通用",
+  "text.autoconfig.blood_mod.option.display_hud": "在饱食度上方显示魔力值",
+
+  "text.autoconfig.blood_mod.category.advanced": "高级",
+  "text.autoconfig.blood_mod.option.hud_x": "魔力值 X 轴偏移",
+  "text.autoconfig.blood_mod.option.hud_y": "魔力值 Y 轴偏移"
 }

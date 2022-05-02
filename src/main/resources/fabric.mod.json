@@ -23,6 +23,9 @@
     ],
     "client": [
       "WaiZhong.blood_mod.BloodModClient"
+    ],
+    "modmenu": [
+      "WaiZhong.blood_mod.config.ModMenuIntegration"
     ]
   },
   "mixins": [
