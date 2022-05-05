@@ -10,6 +10,7 @@ import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.*;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
@@ -74,6 +75,7 @@ public class Gem extends Item {
 
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
+        tooltip.add(new TranslatableText("mana_cost_tooltip", String.valueOf(this.cost)).formatted(Formatting.GRAY));
         tooltip.addAll(this.tooltips);
     }
 }
