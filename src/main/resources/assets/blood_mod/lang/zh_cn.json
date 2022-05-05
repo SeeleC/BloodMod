@@ -2,9 +2,11 @@
   "itemGroup.blood_mod.group" : "血模组",
 
   "item.blood_mod.blood_core": "血心",
-  "item.blood_mod.blood_debris": "血石",
-  "item.blood_mod.blood_bottle": "血瓶",
+  "item.blood_mod.blood_debris": "血晶",
   "item.blood_mod.blood_ingot": "血锭",
+
+  "item.blood_mod.blood_bottle": "血瓶",
+  "item.blood_mod.blood_bottle.tooltip": "生命回复 V （0:30）",
 
   "block.blood_mod.blood_ore": "血矿石",
 
@@ -41,6 +43,7 @@
   "item.blood_mod.inhibitor": "抑制剂",
 
   "item.blood_mod.BottleItem.tooltip": "无效果",
+  "mana_cost_tooltip": "-%d 魔力",
   "newline": "",
 
   "text.autoconfig.blood_mod.category.general": "通用",

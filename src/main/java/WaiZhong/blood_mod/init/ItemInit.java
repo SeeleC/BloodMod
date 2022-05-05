@@ -84,6 +84,7 @@ public class ItemInit {
         Registry.register(Registry.ITEM, new Identifier("blood_mod", "blood_debris"), BLOOD_DEBRIS);
         Registry.register(Registry.ITEM, new Identifier("blood_mod", "blood_bottle"), BLOOD_BOTTLE);
         Registry.register(Registry.ITEM, new Identifier("blood_mod", "blood_ingot"), BLOOD_INGOT);
+
         Registry.register(Registry.ITEM, new Identifier("blood_mod", "blood_sword"), BLOOD_SWORD);
         Registry.register(Registry.ITEM, new Identifier("blood_mod", "blood_pickaxe"), BLOOD_PICKAXE);
         Registry.register(Registry.ITEM, new Identifier("blood_mod", "blood_axe"), BLOOD_AXE);
