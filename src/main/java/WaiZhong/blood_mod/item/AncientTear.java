@@ -18,7 +18,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class AncientTear extends Item {
+public class AncientTear extends BottleItem {
     public AncientTear(Settings settings) {
         super(settings);
     }
@@ -37,30 +37,9 @@ public class AncientTear extends Item {
         return new ItemStack(Items.GLASS_BOTTLE);
     }
 
-    @Nullable
-    @Override
-    public FoodComponent getFoodComponent() {
-        return new FoodComponent.Builder().alwaysEdible().build();
-    }
-
-    @Override
-    public boolean isFood() {
-        return true;
-    }
-
     @Override
     public int getMaxUseTime(ItemStack stack) {
         return 8;
-    }
-
-    @Override
-    public UseAction getUseAction(ItemStack stack) {
-        return UseAction.DRINK;
-    }
-
-    @Override
-    public SoundEvent getEatSound() {
-        return getDrinkSound();
     }
 
     @Override
