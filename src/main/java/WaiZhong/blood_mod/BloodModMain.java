@@ -30,14 +30,14 @@ public class BloodModMain implements ModInitializer {
 			new Identifier("blood_mod", "group")
 	).icon(() -> new ItemStack(BLOOD_DEBRIS))
 			.appendItems(itemStacks -> {
+				itemStacks.add(new ItemStack(BLOOD_ORE));
 				itemStacks.add(new ItemStack(BLOOD_CORE));
 				itemStacks.add(new ItemStack(BLOOD_DEBRIS));
+				itemStacks.add(new ItemStack(BLOOD_INGOT));
 				itemStacks.add(new ItemStack(BLOOD_BOTTLE));
 				itemStacks.add(new ItemStack(ANCIENT_TEAR));
 				itemStacks.add(new ItemStack(INHIBITOR));
 				itemStacks.add(new ItemStack(CATALYST));
-				itemStacks.add(new ItemStack(BLOOD_INGOT));
-				itemStacks.add(new ItemStack(BLOOD_ORE));
 				itemStacks.add(new ItemStack(BLOOD_SWORD));
 				itemStacks.add(new ItemStack(BLOOD_PICKAXE));
 				itemStacks.add(new ItemStack(BLOOD_AXE));
